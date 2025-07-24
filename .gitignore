@@ -20,6 +20,7 @@ dist-react
 *.suo
 *.ntvs*
 *.njsproj
+dist-electron
 *.sln
 *.sw?
 node_modules

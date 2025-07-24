@@ -1,0 +1,16 @@
+{
+    "appId":"com.beltawn.firstapp",
+    "files":["dist-electron","dist-react"],
+    "icon":"./apple.png",
+    "mac":{
+        "target":"dmg"
+    },
+    "linux":{
+        "target":"AppImage",
+        "category":"Utility"
+    },
+    "win":{
+        "target":["portable","msi"],
+        "sign":false
+    }
+}
